@@ -1,0 +1,32 @@
+.admin-dashboard-grid{
+    display: grid;
+    grid-template-columns: 22rem auto;
+}
+
+.admin-main-section{
+    height: calc(100vh - 5.5rem);
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 2rem 2rem 2rem 2rem;
+    width: 100%;
+}
+
+
+/* --------- 768 --------- */
+
+@media (max-width: 48em) {
+    .admin-dashboard-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* ----------500px--------- */
+@media (max-width: 31.25em) {
+    .admin-main-section{
+        padding: 1rem;
+    }
+}
+
+
+

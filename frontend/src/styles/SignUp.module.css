@@ -1,0 +1,26 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 1rem;
+    column-gap: 2rem;
+}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 31.25em) {
+    .container{
+        grid-template-columns: 1fr;
+    }
+}

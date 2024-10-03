@@ -1,0 +1,111 @@
+/* Container for content sections */
+
+
+.container1 {
+    width: 91%;
+    margin: 0 auto;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+
+
+/* Section heading */
+.heading {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #333; /* Neutral dark color */
+}
+
+/* Input group styling */
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+/* Styling for individual labels */
+.inputGroup label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555; /* Subtle grey color for text */
+}
+
+/* Input fields styling */
+.inputGroup input {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Change border color on input focus */
+.inputGroup input:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #fff;
+}
+
+/* Container for form content */
+.content1A {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content1B {
+    padding: 1rem 1rem 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.btn{
+    grid-area: 2 / -2;
+    justify-self: end;
+}
+
+/* Button styling */
+.inputGroup button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.inputGroup button:hover {
+    background-color: #0056b3;
+}
+
+/* Button active effect */
+.inputGroup button:active {
+    background-color: #003d80;
+}
+
+.img{
+    height: 400px;
+    width: 600px;
+}
+
+.img2{
+    width: 100%;
+    height: 300px;
+}
+
+@media (max-width: 48em) {
+    .container1{
+        grid-template-columns: 1fr;
+    }
+    .container1B{
+        grid-area: 1 / 1 / 1 / 2;
+    }
+}

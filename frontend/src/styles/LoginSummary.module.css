@@ -1,0 +1,64 @@
+.loginSummarySection{
+    padding: 1.2rem 2.4rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+.loginSummaryContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.successHeading{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.changeBtn{
+    justify-self: end;
+    width: 10rem;
+    height: 4rem;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: blue;
+}
+
+.successContent{
+    display: flex;
+    gap: 1rem;
+}
+
+.detailsContainer{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.loginDetails{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.details{
+    margin: 0;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+
+
+/* -------- 380px ---------- */
+
+@media (max-width: 23.75em) {
+    .detailsContainer{
+        max-width: 20rem;
+    }
+    .loginDetails{
+        flex-direction: column;
+    }
+}
+
+
+
+

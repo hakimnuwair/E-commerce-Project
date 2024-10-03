@@ -1,0 +1,123 @@
+.section{
+  margin-bottom: 1rem;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
+}
+
+.titleContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container > *:not(:last-child) {
+  padding: 2rem 0;
+  border-bottom: 2px solid #d2dae7; /* Bottom border using accent color */
+}
+
+
+  .orderDetails{
+    display: flex;
+    flex-direction: column;
+    color: #999;
+  }
+
+  .help{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  .helpTitle{
+    font-weight: 500;
+    font-size: 1.8rem;
+  }
+
+  .helpOptions{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+.deliveryAddress{
+    display: flex;
+    justify-content: space-between;
+}
+
+.address{
+  display: flex;
+  flex-direction: column;
+  color: #999;
+}
+
+.payment{
+  display: flex;
+  justify-content: space-between;
+}
+
+.paymentDetails{
+  display: flex;
+  gap: 0.5rem;
+  color: #999;
+}
+
+.products{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.summaryPayment{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+
+
+.amount,.amountNet{
+  text-align: end;
+  color: #999;
+}
+
+.netAmount,.amountNet{
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #000;
+}
+
+@media (max-width: 48em) {
+  .container{
+    width: 70%;
+  }
+}
+
+@media (max-width: 31.25em) {
+  .container{
+    width: 90%;
+  }
+}
+
+/* ------------- 425 ----------- */
+@media (max-width: 26.56em) {
+  .grid3{
+      grid-template-columns: 1fr;
+      justify-items: center;
+      gap: 1rem;
+  }
+  .products > *{
+    border-bottom: 1px solid #ddd;
+     padding: 1rem 0;
+}
+}
+
+
+

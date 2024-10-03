@@ -1,0 +1,53 @@
+.upi-options{
+    padding: 2.4rem 2.4rem 2.4rem 4.5rem;
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.payment-btn {
+    background-color: #fb641b;  /* Default background color */
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: white;               /* Text color */
+    width: 20rem;
+    height: 4.8rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;          /* Optional: Add rounded corners */
+    cursor: pointer;             /* Pointer cursor to indicate it's clickable */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+/* Hover state */
+.payment-btn:hover {
+    background-color: #e8590d;   /* Darker shade on hover */
+    transform: scale(1.02);      /* Slightly larger button on hover */
+}
+
+/* Focus state (when the button is clicked or focused via keyboard) */
+.payment-btn:focus {
+    outline: none;               /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(251, 100, 27, 0.5); /* Add custom focus ring */
+}
+
+/* Active state (when the button is being clicked) */
+.payment-btn:active {
+    background-color: #d94e0c;   /* Darkest shade during click */
+    transform: scale(0.98);      /* Slightly reduce size to indicate press */
+}
+
+/* Visited state (for links, though usually not used for buttons) */
+.payment-btn:visited {
+    background-color: #fb641b;   /* Keep it the same as default */
+    color: white;
+}
+
+
+@media (max-width: 37.5em) {
+    .payment-btn{
+        width: 16rem;
+        font-size: 1.4rem;
+        height: 4rem;
+    }
+}

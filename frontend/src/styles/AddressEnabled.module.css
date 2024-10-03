@@ -1,0 +1,26 @@
+.section{
+    padding: 1.2rem 2.4rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.headerContainer{
+    display: flex;
+    gap: 1rem;
+}
+
+.srNo{
+  font-size: 12px;
+  color: #2874f0;
+  background-color: #f0f0f0;
+  border-radius: 2px;
+  padding: 3px 7px;
+  vertical-align: baseline;
+}
+
+.heading{
+text-transform: uppercase;
+  color: #878787;
+  font-size: 16px;
+  font-weight: 500;
+}

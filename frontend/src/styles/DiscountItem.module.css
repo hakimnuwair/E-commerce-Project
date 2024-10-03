@@ -1,0 +1,46 @@
+.contentContainer{
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.name{
+  font-size: 1.6rem;
+}
+
+.redirect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: #007bff; /* Use your primary button color */
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .explore svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .explore:hover {
+    color: #0056b3; /* Slightly darker shade for hover effect */
+  }
+

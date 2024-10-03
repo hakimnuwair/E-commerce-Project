@@ -1,0 +1,36 @@
+.price-detail-title{
+    font-size: 1.6rem;
+    color: #777;
+    padding: 1rem 2.5rem;
+}
+.border-helper{
+    width: 100%;
+    border-top: 1px solid #ddd;
+}
+
+.price-details-section{
+    background-color: #fff;
+    padding-bottom: 2rem;
+    width: 100%;
+    box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
+}
+
+
+
+/* ------------calculations------------ */
+.calculations{
+    padding: 1rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.calculations-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.saving-msg{
+    color: green;
+}
+

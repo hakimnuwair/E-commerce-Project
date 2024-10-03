@@ -1,0 +1,36 @@
+.order-status {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .status-timeline {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .status-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .status-item:last-child {
+    border-bottom: none;
+  }
+  
+  .status-time {
+    color: #666;
+  }
+  
+  .status-description {
+    font-weight: bold;
+    color: #333;
+  }
+
+  
+  

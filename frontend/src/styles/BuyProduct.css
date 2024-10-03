@@ -1,0 +1,32 @@
+.buy-product-section{
+    padding: 2.4rem 2.4rem 2.4rem 4.5rem;
+}
+
+.buy-product-container-grid3{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.buy-product-details{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem
+}
+
+.buy-product-actions{
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 31.25em) {
+    .buy-product-container-grid3{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 1rem;
+    }
+    .buy-product-section{
+        border-bottom: 1px solid #ddd;
+    }
+}

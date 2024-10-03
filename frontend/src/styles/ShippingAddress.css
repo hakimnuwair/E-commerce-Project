@@ -1,0 +1,29 @@
+.shipping-address-container-grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.full-address{
+    grid-column: span 2;
+}
+
+.deliver-btn, .existing-btn{
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 26.56em) {
+    .shipping-address-container-grid2{
+        grid-template-columns: 1fr;
+    }
+    .full-address{
+        grid-column: span 1;
+    }
+    .existing-btn{
+        width: 100%;
+    }
+}
+
+

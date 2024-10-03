@@ -1,0 +1,99 @@
+.section{
+    box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
+    width: 98%;
+    max-width: 148.9rem;
+    margin: 0 auto 1rem auto;
+    padding: 1rem 2rem 2rem 2rem;
+    /* margin: 1rem auto 0 auto; */
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.gridLess4{
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 100%;
+    margin-top: 2rem;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.helper{
+    position: relative;
+}
+
+.categoryGrid{
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 100%;
+    margin-top: 2rem;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.headerTitle{
+    font-size: 2.4rem;
+    color: rgb(33, 33, 33);
+    border-width: 0px;
+    box-sizing: border-box;
+    display: inline;
+    white-space: nowrap;
+    overflow-wrap: normal;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
+
+.headline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.footerLine{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+.exploreSide{
+    display: flex;
+    gap: 1rem;
+}
+
+
+@media(max-width: 75em){
+    .section{
+        width: 95%;
+    }
+}
+
+
+/* -----1125px change grid to 2 col--- */
+@media(max-width: 70.30em) {
+    .categoryGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 47.5em) {
+    html{
+        font-size: 50%;
+    }
+}
+
+
+@media (max-width: 40em) {
+    .categoryGrid{
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));;
+    }
+}
+
+
+
+
+
+

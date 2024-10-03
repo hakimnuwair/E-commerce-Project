@@ -1,0 +1,182 @@
+
+.order-product-container{
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 70% auto;
+    gap: 1rem;
+    justify-content: center;
+    min-height: 75vh;
+}
+.order-section{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.order-message{
+    width: 36.4rem;
+    border: 1px solid #ddd;
+}
+
+.login-header{
+    color: #fff;
+    padding: 1.2rem 2.4rem;
+    background-color: blue;
+}
+
+.order-header-color{
+    background-color: blue;
+}
+
+.order-headers{
+    color: #fff;
+    padding: 1.2rem 2.4rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.delivery-address{
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.address-form{
+    width: 100%;
+    max-width: 63rem;
+    padding: 2.4rem 2.4rem 2.4rem 4.5rem;
+}
+
+.login-content{
+    width: 80%;
+}
+
+.login-section{
+    background-color: #fff;
+    padding: 2.4rem 2.4rem 2.4rem 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.existing-id-msg{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.existing-msg{
+    margin-bottom: 0;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.or-helper{
+    margin-top: 1rem;
+    height: 1px;
+    background-color: #ddd;
+    grid-area: 2 / 1 / 2 / 3;
+}
+
+
+
+.login-form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form-group input{
+    padding: 0.5rem;
+}
+
+
+.login-form{
+    display: flex;
+    gap: 2rem;
+}
+
+.login-button{
+    width: 19rem;
+}
+
+.login-button:hover{
+    background-color: #0e4c08;
+}
+
+.order-summary{
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+.payment-method{
+    background-color: #fff;
+}
+
+/* --------1330px---------- */
+
+/* @media(max-width: 83.125em)  {
+    .order-product-container{
+        width: 100%;
+    }
+} */
+
+/* --------1310px---------- */
+
+@media(max-width: 81.875em)  {
+    .login-form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* --------830px---------- */
+
+@media (max-width: 51.875em) {
+    .order-product-container{
+        width: 80%;
+    }
+}
+
+
+/* ---------768px-------------- */
+@media (max-width: 48em) {
+    .order-product-container{
+        grid-template-columns: 1fr;
+    }
+    .order-second-col{
+        grid-area: 1 / 1 / 1 / 1;
+    }
+}
+
+/* ---------620px---------- */
+@media(max-width: 38.75em)  {
+    .login-form{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .login-form-group{
+        gap: 0.3rem;
+    }
+    .existing-id-msg{
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+/* ------------ 500 --------- */
+
+@media (max-width: 31.25em) {
+    .order-product-container{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+

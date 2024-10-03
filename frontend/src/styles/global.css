@@ -1,0 +1,169 @@
+/*
+
+
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+
+BACKGROUND:#17202A 
+GRIDS:#2C3E50
+BUTTONS:#000080
+TEXT:#EAECEE   
+
+- Primary: #e67e22
+- Tints:
+#fdf2e9
+#fae5d3
+#eb984e
+
+- Shades: 
+#cf711f
+#45260a
+
+- Accents:
+- Greys
+
+#888
+#767676 (lightest grey allowed on #fff)
+#6f6f6f (lightest grey allowed on #fdf2e9)
+#555
+#333
+
+--- 05 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 06 BORDER-RADIUS
+
+Default: 9px
+Medium: 11px
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+12 for data / 15 for sub-headings / h2 for headings / h3 for sub-headings
+
+theme:
+Modern and Clean
+Primary Colors: White, Light Gray
+Accent Colors: Teal, Navy Blue
+Use: General eCommerce, versatile products
+
+
+*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto, Arial, sans-serif';
+    line-height: 1.5;
+    background-color: #f1f3f6;
+    color: #333;
+    font-size: 1.6rem;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000
+}
+h1{
+    font-size: 3.6rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.4rem;
+}
+h4{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.6rem;
+}
+.small-text{
+    font-size: 1.4rem;
+    color: #666;
+}
+.tiny-text{
+    font-size: 1.2rem;
+}
+.section-container{
+    width: 98%;
+    margin: 0 auto 1rem auto;
+    padding: 2rem;
+    /* margin: 1rem auto 0 auto; */
+}
+
+.container{
+    max-width: 120rem;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+.sticky .nav-section{
+    z-index: 3;
+    position: fixed;
+    height: 9rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.sticky .sticky-helper{
+    margin-top: 10.5rem;
+}
+ul{
+    margin: 0;
+}
+
+
+@media(max-width: 75em){
+    html{
+        font-size: 56.25%;
+    }
+    .sticky .sticky-helper{
+        margin-top: 11rem; 
+    }
+}
+
+@media(max-width: 75em){
+    html{
+        font-size: 56.25%;
+    }
+}
+
+@media (max-width: 31.25em) {
+    html{
+        font-size: 53%;
+    }
+}

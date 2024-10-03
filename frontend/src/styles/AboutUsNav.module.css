@@ -1,0 +1,55 @@
+.container{
+    width: 98%;
+    max-width: 140rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.navItemsContainer{
+  
+}
+
+.navItemsContainer{
+    display: flex;
+    gap: 2rem;
+    justify-content: right;
+    align-items: center;
+}
+
+.navItem{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.navItem:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.logo{
+    height: 3rem;
+    width: 20rem;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.section{
+    box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.stickyHelper{
+    margin-top: 6rem;
+}

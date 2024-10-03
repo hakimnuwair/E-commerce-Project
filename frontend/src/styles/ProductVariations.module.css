@@ -1,0 +1,24 @@
+.section{
+    margin-bottom: 2rem;
+    border: 1px solid #ddd;
+    padding: 2rem;
+}
+.colorContainer{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.heading{
+    font-weight: 500;
+    font-size: 1.6rem;
+    width: 11rem; 
+}
+
+.sizeContainer{
+    display: flex;
+}
+
+.size{
+    border: 1px solid #ddd;
+    padding: 1rem 1.5rem;
+}

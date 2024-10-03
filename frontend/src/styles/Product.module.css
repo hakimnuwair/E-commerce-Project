@@ -1,0 +1,113 @@
+
+.productContainer{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 1px solid #ddd;
+        padding: 1rem;
+}
+
+
+.productContainer:hover{
+    box-shadow: 0 3px 16px 0 rgba(0, 0, 0, .11);
+    cursor: pointer;
+}
+
+
+
+.ellipsis{
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.paddingHelper{
+    padding: 0.5rem 1rem 2rem 0.5rem;
+}
+
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide overflow */
+}
+
+.productName{
+    color: #878787;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+
+.priceContainer {
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.basePrice {
+    text-decoration: line-through;
+    font-size: 1.4rem;
+    color: #878787;
+}
+
+.discountContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.discountText {
+    font-size: 1.4rem;
+    color: #666; /* Subtle color for discount text */
+}
+
+.discountedPrice {
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #212121;
+}
+
+.price{
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #212121;
+}
+
+.discountInfo{
+    color: #388e3c;
+    font-size: 1.3rem;
+    letter-spacing: -.2px;
+    font-weight: 550;
+    font-family: sans-serif;
+}
+
+@media(max-width: 75em){
+    .responsiveImg{
+        height: 20rem;
+        width: 100%;
+    }
+}
+
+
+/* ------------ 768 --------------- */
+
+@media (max-width: 48em) {
+    .responsiveImg{
+        height: 18rem;
+        width: 100%;
+    }
+}
+
+
+
+
+

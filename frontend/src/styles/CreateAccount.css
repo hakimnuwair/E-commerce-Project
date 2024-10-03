@@ -1,0 +1,50 @@
+.auth-section2{
+    min-height: 74.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-acc-section{
+    width: 70rem;
+    margin: 0 auto;
+}
+
+.create-acc-container{
+    width: 100%;
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.create-acc-container .heading{
+    color: #000;
+    font-size: 2.4rem;
+}
+
+
+.create-acc-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.side-msg{
+    font-size: 1.8rem;
+}
+
+.create-input-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-input-group input{
+    padding: 0.5rem;
+}
+
+.sign-in-option{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error{
+    color: red;
+}

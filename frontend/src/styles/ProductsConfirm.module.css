@@ -1,0 +1,26 @@
+.summarySection{
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.summaryContainer{
+    padding: 1.2rem 2.4rem;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 3% 67% 30%;
+    row-gap: 1rem;
+}
+
+.changeBtn{
+    color: blue;
+    justify-self: end;
+    width: 10rem;
+    height: 4rem;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+
+

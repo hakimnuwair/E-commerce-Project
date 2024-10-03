@@ -1,0 +1,54 @@
+.section{
+    background-color: #007bff;
+    margin-bottom: 1rem;
+}
+.container1{
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+
+.content1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+}
+
+
+
+.img {
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+
+.btn{
+    width: 10rem;
+    border-radius: 0.5rem;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 500;
+}
+
+.descriptionContainer{
+    padding: 1rem 1rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (max-width: 48em) {
+    .content1{
+        grid-template-columns: 1fr;
+    }
+}

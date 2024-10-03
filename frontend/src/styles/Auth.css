@@ -1,0 +1,126 @@
+.auth-section{
+    min-height: 74.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-section-container{
+    width: 50%;
+    max-width: 80rem;
+    background-color: white;
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+    height: 90%;
+    min-width: 25rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.login-sub-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100%;
+}
+
+.login-side-style{
+    color: #fff;
+    background-color: rgb(40, 116, 240);
+    height: 100%;
+    padding: 2rem;
+}
+
+.login-container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 2rem 2rem 2rem;
+}
+
+.login-cart-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-input-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-container{
+    text-align: center;
+}
+
+.create-account-btn{
+    font-size: 1.6rem;
+}
+
+.main-login-btn{
+    background-color: #fb641b;
+    font-size: 1.6rem;
+    width: 100%;
+}
+
+.main-login-btn {
+    background-color: #fb641b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .main-login-btn:hover,
+  .main-login-btn:active,
+  .main-login-btn:focus,
+  .main-login-btn:visited,
+  .main-login-btn:link {
+    background-color: #fb641b;
+    color: white;
+    outline: none;
+    text-decoration: none;
+  }
+
+.last-row{
+    margin-bottom: 1rem;
+}
+
+/* --------1200px--------- */
+@media (max-width: 75em) {
+    .auth-section{
+        min-height: 76vh;
+    }
+}
+
+
+/* ------900px----- */
+@media(max-width: 56.25em){
+    .login-sub-section{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ------760px------ */
+@media (max-width: 47.5em) {
+    .login-sub-section{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
