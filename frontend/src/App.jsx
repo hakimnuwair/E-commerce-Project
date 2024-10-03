@@ -15,6 +15,7 @@ import AboutUs from "./components/AboutsUs.jsx"
 import ContactUs from './components/ContactUs.jsx';
 
 function App() {
+  // test
   return (   
         <>
           <Categories />
