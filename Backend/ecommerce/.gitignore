@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore configuration.java file
+src/main/java/com/quality/ecommerce/configuration/CloudinaryConfig.java
