@@ -14,6 +14,7 @@ A fully functional e-commerce website built with **React** for the frontend and 
 - User authentication and authorization
 - Product categories and Various Discounts 
 - Shopping cart functionality
+- Smooth checkout functionality
 - Admin dashboard for managing products, disocunts, users, and orders
 - Responsive design for both mobile and desktop
 
