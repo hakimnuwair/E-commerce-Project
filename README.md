@@ -65,7 +65,7 @@ Follow these steps to get a local copy of the project up and running:
     - Start the React application:
     - npm start
 
-***Usage***
+## Usage
 - Access the application in your browser at http://localhost:3000.
 - Explore the available products.
 - For order and cart functionality, register a new account and log in.
@@ -80,7 +80,7 @@ Admin Dashboard Features:
 -   View and manage users
 -   Manage orders
 
-Contributing
+## Contributing
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
 -   Fork the repository.
