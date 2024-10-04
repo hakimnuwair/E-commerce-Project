@@ -34,3 +34,5 @@ build/
 
 # Ignore configuration.java file
 src/main/java/com/quality/ecommerce/configuration/CloudinaryConfig.java
+
+#comment for test git ignored or not

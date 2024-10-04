@@ -1,6 +1,6 @@
 # E-Commerce Website
 
-A fully functional e-commerce website built with **React** for the frontend and **Spring Boot** for the backend, utilizing **MySQL** for data storage. This project demonstrates the integration of modern web technologies to create a responsive and user-friendly shopping experience.
+A fully functional e-commerce website built with React for the frontend and Spring Boot for the backend, utilizing MySQL for data storage and Hibernate for data persistence. This project demonstrates the integration of modern web technologies to create a responsive and user-friendly shopping experience.
 
 ## Table of Contents
 - [Features](#features)
@@ -20,7 +20,7 @@ A fully functional e-commerce website built with **React** for the frontend and 
 
 ## Technologies Used
 - **Frontend:** React, CSS
-- **Backend:** Spring Boot
+- **Backend:** Spring Boot, Hibernate
 - **Database:** MySQL
 - **Other Technologies:** 
   - JWT for secure authentication
