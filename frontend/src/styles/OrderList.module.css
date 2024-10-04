@@ -1,0 +1,29 @@
+.section{
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
+}
+
+.caption {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    color: #6c757d;
+    text-align: left;
+}
+
+.table tr th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table thead tr{
+    background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover{
+    background-color: #e0f7fa;
+}

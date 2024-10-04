@@ -61,11 +61,9 @@ export default function CreateAccount() {
                 setErr(true);
                 console.error("There was an error creating the account!", error);
             }
-
             // Reset form fields after submission
         }
-        
-    }
+  }
 
   return (
          <div className='auth-section2'>
