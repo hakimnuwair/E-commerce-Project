@@ -9,7 +9,6 @@ A fully functional e-commerce website built with **React** for the frontend and 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - User authentication and authorization
@@ -40,7 +39,7 @@ Follow these steps to get a local copy of the project up and running:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/ecommerce-website.git
+   git clone https://github.com/hakimnuwair/E-commerce-Project
 
 2. Navigate to the project directory:
     - cd ecommerce-website
@@ -70,12 +69,9 @@ Follow these steps to get a local copy of the project up and running:
 - Explore the available products.
 - For order and cart functionality, register a new account and log in.
 
-Admin Access
-To access the admin dashboard:
-Login as Admin:
-Use the following credentials:
+Admin Access: To access the admin dashboard, Login as Admin, Use the following credentials:
 -   Username: admin@gmail.com
--   Password: 123123     (Change this to your actual admin password)
+-   Password: 123123  
 
 Admin Dashboard Features:
 -   Manage products (add, edit, delete)
